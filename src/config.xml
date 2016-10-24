@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="candies-status" version="0.1.1">
+<details>
+  <title>Status of candies' robots</title>
+  <homepage>https://github.com/mjimenezganan/candies-status</homepage>
+  <authors>Miguel Jiménez</authors>
+  <email>mjimenezganan@gmail.com</email>
+  <image></image>
+  <smartphoneimage></smartphoneimage>
+  <description>.</description>
+  <longdescription>DESCRIPTION.md</longdescription>
+  <changelog>doc/changelog.md</changelog>
+  <doc>doc/index.md</doc>
+  <license>GPL</license>
+  <issuetracker>https://github.com/mjimenezganan/candies-status/issues</issuetracker>
+</details>
+
+<requirements>
+  
+</requirements>
+
+<preferences>
+
+</preferences>
+<wiring>
+    <inputendpoint name="entityInput" type="text" label="Receive a update from CB"  
+                       description="Update on the status of the CB entities monitored" 
+                       friendcode="entity" />
+</wiring>
+<contents src="index.html"/>
+<rendering height="47" width="10"/>
+</widget>
